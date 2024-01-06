@@ -1,8 +1,6 @@
 module github.com/2dust/AndroidLibXrayLite
 
-go 1.21
-
-toolchain go1.21.5
+go 1.21.1
 
 require (
 	github.com/xtls/xray-core v1.8.6
@@ -57,4 +55,4 @@ require (
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
 
-replace github.com/xtls/xray-core => github.com/hiddify/hiddify-xray-core v1.8.2-0.20231129135956-aefc38f6e6e1
+replace github.com/xtls/xray-core => github.com/hiddify/hiddify-xray-core v1.8.2-0.20240106115541-0d8d37d3c7cb
